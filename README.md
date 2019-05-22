@@ -1,18 +1,23 @@
 # vuebook
 
-> A Vue.js project
+> 基于VUE开发的一个本地网页阅读器
+(电子书测试之后已删除)
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+##功能
+- [x] 上传txt文件解析并展示
+- [x] 章节前进/后退
+- [x] 章节跳转
+- [x] 回到顶部
 
-# serve with hot reload at localhost:8080
-npm run dev
+- 文本搜索 （待完成）
 
-# build for production with minification
-npm run build
-```
+##技术分析
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- [x] vue
+- [x] web worker新线程处理电子书字符串。
+- [x] md5 结合localStorage 实现刷新重新上传相同书籍记录已读位置。
+
+##效果
+
+![1](./img/xiaoguo.gif)

@@ -131,6 +131,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  &>input{
+    margin: 100px auto;
+  }
   &>.left, &>.right{
     position: fixed;
     width: 60px;
